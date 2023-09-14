@@ -9,9 +9,9 @@ CONFIG_BRCMFMAC_SDIO=y
 CONFIG_BRCMFMAC_USB=y
 CONFIG_BTRFS_PROGS_ZSTD=y
 CONFIG_CGROUPFS_MOUNT_KERNEL_CGROUPS=y
-CONFIG_DOCKER_CGROUP_OPTIONS=y
-CONFIG_DOCKER_NET_MACVLAN=y
-CONFIG_DOCKER_STO_EXT4=y
+#CONFIG_DOCKER_CGROUP_OPTIONS=y
+#CONFIG_DOCKER_NET_MACVLAN=y
+#CONFIG_DOCKER_STO_EXT4=y
 CONFIG_DRIVER_11AC_SUPPORT=y
 CONFIG_KERNEL_CGROUP_DEVICE=y
 CONFIG_KERNEL_CGROUP_FREEZER=y
@@ -35,14 +35,14 @@ CONFIG_MBEDTLS_KEY_EXCHANGE_ECDHE_RSA_ENABLED=y
 CONFIG_MBEDTLS_KEY_EXCHANGE_PSK_ENABLED=y
 CONFIG_MBEDTLS_NIST_KW_C=y
 CONFIG_MBEDTLS_RSA_NO_CRT=y
-CONFIG_OPENVPN_openssl_ENABLE_DEF_AUTH=y
-CONFIG_OPENVPN_openssl_ENABLE_FRAGMENT=y
-CONFIG_OPENVPN_openssl_ENABLE_LZ4=y
-CONFIG_OPENVPN_openssl_ENABLE_LZO=y
-CONFIG_OPENVPN_openssl_ENABLE_MULTIHOME=y
-CONFIG_OPENVPN_openssl_ENABLE_PF=y
-CONFIG_OPENVPN_openssl_ENABLE_PORT_SHARE=y
-CONFIG_OPENVPN_openssl_ENABLE_SMALL=y
+#CONFIG_OPENVPN_openssl_ENABLE_DEF_AUTH=y
+#CONFIG_OPENVPN_openssl_ENABLE_FRAGMENT=y
+#CONFIG_OPENVPN_openssl_ENABLE_LZ4=y
+#CONFIG_OPENVPN_openssl_ENABLE_LZO=y
+#CONFIG_OPENVPN_openssl_ENABLE_MULTIHOME=y
+#CONFIG_OPENVPN_openssl_ENABLE_PF=y
+#CONFIG_OPENVPN_openssl_ENABLE_PORT_SHARE=y
+#CONFIG_OPENVPN_openssl_ENABLE_SMALL=y
 CONFIG_PACKAGE_6in4=y
 CONFIG_PACKAGE_MAC80211_DEBUGFS=y
 CONFIG_PACKAGE_MAC80211_MESH=y
@@ -50,7 +50,7 @@ CONFIG_PACKAGE_TAR_BZIP2=y
 CONFIG_PACKAGE_TAR_GZIP=y
 CONFIG_PACKAGE_TAR_XZ=y
 CONFIG_PACKAGE_TAR_ZSTD=y
-CONFIG_PACKAGE_aliyundrive-webdav=y
+#CONFIG_PACKAGE_aliyundrive-webdav=y
 CONFIG_PACKAGE_attr=y
 CONFIG_PACKAGE_bash=y
 CONFIG_PACKAGE_blkid=y
@@ -66,8 +66,8 @@ CONFIG_PACKAGE_cgroupfs-mount=y
 CONFIG_PACKAGE_chattr=y
 CONFIG_PACKAGE_containerd=y
 CONFIG_PACKAGE_coreutils-nohup=y
-CONFIG_PACKAGE_docker=y
-CONFIG_PACKAGE_dockerd=y
+#CONFIG_PACKAGE_docker=y
+#CONFIG_PACKAGE_dockerd=y
 CONFIG_PACKAGE_dosfstools=y
 CONFIG_PACKAGE_f2fs-tools=y
 CONFIG_PACKAGE_f2fsck=y
@@ -167,23 +167,23 @@ CONFIG_PACKAGE_lua-cjson=y
 CONFIG_PACKAGE_lua-maxminddb=y
 CONFIG_PACKAGE_luasocket=y
 # CONFIG_PACKAGE_luci-app-accesscontrol is not set
-CONFIG_PACKAGE_luci-app-adguardhome=y
-CONFIG_PACKAGE_luci-app-aliyundrive-webdav=y
+#CONFIG_PACKAGE_luci-app-adguardhome=y
+#CONFIG_PACKAGE_luci-app-aliyundrive-webdav=y
 CONFIG_PACKAGE_luci-app-amlogic=y
 # CONFIG_PACKAGE_luci-app-arpbind is not set
-# CONFIG_PACKAGE_luci-app-bypass_INCLUDE_ShadowsocksR_Libev_Client is not set
-# CONFIG_PACKAGE_luci-app-bypass_INCLUDE_ShadowsocksR_Libev_Server is not set
-# CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Shadowsocks_Libev_Client is not set
-# CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Shadowsocks_Libev_Server is not set
-# CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Simple_Obfs is not set
-# CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Socks_Server is not set
-# CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Trojan is not set
-# CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Xray is not set
-# CONFIG_PACKAGE_luci-app-ddns is not set
-CONFIG_PACKAGE_luci-app-docker=y
-CONFIG_PACKAGE_luci-app-dockerman=y
+CONFIG_PACKAGE_luci-app-bypass_INCLUDE_ShadowsocksR_Libev_Client=y
+CONFIG_PACKAGE_luci-app-bypass_INCLUDE_ShadowsocksR_Libev_Server=y
+CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Shadowsocks_Libev_Client=y
+CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Shadowsocks_Libev_Server=y
+CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Simple_Obfs=y
+CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Socks_Server=y
+CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Trojan=y
+CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Xray=y
+CONFIG_PACKAGE_luci-app-ddns=y
+#CONFIG_PACKAGE_luci-app-docker=y
+#CONFIG_PACKAGE_luci-app-dockerman=y
 CONFIG_PACKAGE_luci-app-openclash=y
-CONFIG_PACKAGE_luci-app-openvpn-server=y
+#CONFIG_PACKAGE_luci-app-openvpn-server=y
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
 # CONFIG_PACKAGE_luci-app-ssr-plus is not set
@@ -200,26 +200,26 @@ CONFIG_PACKAGE_luci-app-openvpn-server=y
 CONFIG_PACKAGE_luci-app-vssr=y
 CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Kcptun=y
 # CONFIG_PACKAGE_luci-app-vssr_INCLUDE_ShadowsocksR_Libev_Server is not set
-CONFIG_PACKAGE_luci-app-webadmin=y
-CONFIG_PACKAGE_luci-app-zerotier=y
-CONFIG_PACKAGE_luci-i18n-aliyundrive-webdav-zh-cn=y
+#CONFIG_PACKAGE_luci-app-webadmin=y
+#CONFIG_PACKAGE_luci-app-zerotier=y
+#CONFIG_PACKAGE_luci-i18n-aliyundrive-webdav-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-amlogic-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-docker-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-dockerman-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-openvpn-server-zh-cn=y
+#CONFIG_PACKAGE_luci-i18n-docker-zh-cn=y
+#CONFIG_PACKAGE_luci-i18n-dockerman-zh-cn=y
+#CONFIG_PACKAGE_luci-i18n-openvpn-server-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-vssr-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-webadmin-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=y
-CONFIG_PACKAGE_luci-lib-docker=y
+#CONFIG_PACKAGE_luci-i18n-webadmin-zh-cn=y
+#CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=y
+#CONFIG_PACKAGE_luci-lib-docker=y
 CONFIG_PACKAGE_luci-proto-ipv6=y
-CONFIG_PACKAGE_luci-theme-opentomcat=y
+#CONFIG_PACKAGE_luci-theme-opentomcat=y
 CONFIG_PACKAGE_mount-utils=y
 CONFIG_PACKAGE_odhcp6c=y
 CONFIG_PACKAGE_odhcp6c_ext_cer_id=0
 CONFIG_PACKAGE_odhcpd-ipv6only=y
 CONFIG_PACKAGE_odhcpd_ipv6only_ext_cer_id=0
-CONFIG_PACKAGE_openvpn-easy-rsa=y
-CONFIG_PACKAGE_openvpn-openssl=y
+#CONFIG_PACKAGE_openvpn-easy-rsa=y
+#CONFIG_PACKAGE_openvpn-openssl=y
 CONFIG_PACKAGE_parted=y
 CONFIG_PACKAGE_perl=y
 CONFIG_PACKAGE_perl-http-date=y
@@ -317,11 +317,11 @@ CONFIG_PACKAGE_lua-neturl=y
 # CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_SHORTCUT_FE_CM is not set
 CONFIG_PACKAGE_luci-lib-ipkg=y
 CONFIG_PACKAGE_microsocks=y
-CONFIG_PACKAGE_miniupnpd=y
+CONFIG_PACKAGE_miniupnpd=n
 CONFIG_PACKAGE_resolveip=y
 CONFIG_PACKAGE_shadowsocks-rust-sslocal=y
 CONFIG_PACKAGE_shadowsocks-rust-ssserver=y
 CONFIG_PACKAGE_tcping=y
-CONFIG_PACKAGE_vsftpd-alt=y
+CONFIG_PACKAGE_vsftpd-alt=n
 CONFIG_VSFTPD_USE_UCI_SCRIPTS=y
 EOF
